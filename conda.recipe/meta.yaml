@@ -1,0 +1,23 @@
+package:
+    name: damidseq_pipeline
+    version: 1.4.1
+
+source:
+    git_rev: 91ae52c0522d
+    git_url: https://github.com/owenjm/damidseq_pipeline.git
+
+build:
+    number: 0
+    skip: False
+
+requirements:
+    run:
+        - bowtie2
+        - samtools
+
+test:
+
+about:
+    home: http://owenjm.github.io/damidseq_pipeline
+    license: GPL
+    license_file: LICENSE
